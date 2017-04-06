@@ -1,0 +1,21 @@
+ 16. Write a program that will simulate FCFS, SJN, SRT, and Round Robin
+ scheduling algorithms. For each algorithm, the program should compute
+ waiting time and turn around time of every job as well as the average waiting
+time and average turn around time. The average values should be consolidated
+in a table for easy comparison. You may use the following data to test your
+program. The time quantum for Round Robin is 4 ms. (Assume that the
+ context switching time is 0).
+ 
+ 
+Job Arrival Times CPU Cycle (in milliseconds)
+
+A 0 16
+B 3 2
+C 5 11
+D 9 6
+E 10 1
+F 12 9
+G 14 4
+H 16 14
+I 17 1
+J 19 8
